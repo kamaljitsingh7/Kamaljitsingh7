@@ -1,0 +1,47 @@
+﻿
+.cst-page-about-me {
+    margin: 0 10% 0 10%;
+    /*background-color: white;*/
+    padding: 50px 60px 50px 60px;
+    display: flex;
+}
+
+.cst-about-image {
+}
+
+.cst-image-elm1 {
+    width: 400px;
+    height: 455px;
+}
+
+.cst-about-content {
+    padding: 10px;
+    background-color: white;
+
+}
+
+.cst-icon-anchor {
+    text-decoration: none;
+}
+
+
+
+/*icons*/
+.cst-icon-linkedin {
+    color: #4291b4;
+    font-size: 24px;
+    margin: 5px;
+}
+
+
+.cst-icon-twitter {
+    color: #28aae1;
+    font-size: 24px;
+    margin: 5px;
+}
+
+.cst-icon-googleplus {
+    color: #d54438;
+    font-size: 24px;
+    margin: 5px;
+}

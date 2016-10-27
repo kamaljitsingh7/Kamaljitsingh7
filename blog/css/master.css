@@ -1,0 +1,55 @@
+﻿
+@font-face {
+    font-family: 'SummerHearts-Regular';
+    src: url('../fonts/SummerHearts-Regular.otf') format('opentype');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Nav bar */
+.navbar {
+    background: #78797b;
+    height: 50px;
+    box-shadow: 0 6px 5px rgba(191, 174, 174, 0.5);
+    display: flex;
+}
+
+.cst-title {
+    font-family: SummerHearts-Regular, Helvetica, Verdana, Sans-Serif;
+    font-size: 26px;
+    color: black;
+    margin: 10px 0 0 10px;
+}
+
+.cst-title2 {
+    font-family: SummerHearts-Regular, Helvetica, Verdana, Sans-Serif;
+    font-size: 20px;
+    color: black;
+    margin: 20px 0 0 10px;
+}
+
+.cst-icon-loves {
+    color: white;
+    font-size: 20px;
+    margin: 15px 0 0 10px;
+}
+
+/*Nav bar ends*/
+
+
+
+.cst-body {
+    background-color: #6b7073;
+    flex-grow: 1;
+    overflow:auto;
+}
