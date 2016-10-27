@@ -4,6 +4,10 @@
     src: url('../fonts/SummerHearts-Regular.otf') format('opentype');
 }
 
+.shr-font{
+    font-family: SummerHearts-Regular, Helvetica, Verdana, Sans-Serif;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -25,14 +29,12 @@ body {
 }
 
 .cst-title {
-    font-family: SummerHearts-Regular, Helvetica, Verdana, Sans-Serif;
     font-size: 26px;
     color: black;
     margin: 10px 0 0 10px;
 }
 
 .cst-title2 {
-    font-family: SummerHearts-Regular, Helvetica, Verdana, Sans-Serif;
     font-size: 20px;
     color: black;
     margin: 20px 0 0 10px;
