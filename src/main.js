@@ -9,7 +9,7 @@ Bluebird.config({ warnings: { wForgottenReturn: false } });
 export function configure(aurelia) {
   aurelia.use
     .standardConfiguration()
-    .feature(PLATFORM.moduleName('resources/index'));
+   // .feature(PLATFORM.moduleName('resources/index'));
 
   // Uncomment the line below to enable animation.
   // aurelia.use.plugin(PLATFORM.moduleName('aurelia-animator-css'));
@@ -22,9 +22,9 @@ export function configure(aurelia) {
     aurelia.use.developmentLogging();
   }
 
-  if (environment.testing) {
-    aurelia.use.plugin(PLATFORM.moduleName('aurelia-testing'));
-  }
+  //if (environment.testing) {
+  //  aurelia.use.plugin(PLATFORM.moduleName('aurelia-testing'));
+  //}
 
   aurelia.start().then(() => aurelia.setRoot(PLATFORM.moduleName('app')));
 }
