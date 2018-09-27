@@ -1,13 +1,29 @@
+import profileImage from './images/prasan_1.jpg'
+
 export class App {
   constructor() {
     //give print icon (with all expanded)
     this.pageLabels = {
+      Summary: 'Summary',
+      TechnicalSkills: 'Technical Skills',
+      Experience: 'Experience',
+      Education: 'Education',
+      Others: 'Other Details',
+      ProfileLinkedInTitle: 'prasankumar93 on LinkedIn',
+      ProfileTwitterTitle:'@prasankumar93 on Twitter',
+      ProfileGooglePlusTitle:'+prasankumar93 on Google+',
+      ProfileGmailTitle:'email to prasankumar93@gmail.com'
+    }
+    this.pageData = {
+      ProfileImage:profileImage,
       LastUpdatedOn: '26 Sept, 2018',
       Name: 'Prasan Kumar',
-      Address: 'No 9, Obaiah Galli, 2nd Cross Cottonpet, Bangalore 560053, INDIA',
+      Address: 'Bangalore, INDIA',
       Email: 'prasankumar93@gmail.com',
       //Contact: '+91–9632035003',
       ProfileLinkedIn: 'https://in.linkedin.com/in/prasankumar93',
+      ProfileTwitter: 'https://twitter.com/prasankumar93',
+      ProfileGooglePlus:'https://plus.google.com/+prasankumar93',
       Summary: [{
         Content: 'A full stack software developer with 7 years of experience in using Microsoft and Web technologies. '
       }, {

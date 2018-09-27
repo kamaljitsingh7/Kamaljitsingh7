@@ -1,3 +1,80 @@
 <template>
-  <h1>${message}</h1>
+  <require from="./app.css"></require>
+  <require from="font-awesome/css/font-awesome.css"></require>
+
+  <div class="page-001-container">
+    <div class="page-001-head">
+      <div class="page-001-head-left">
+        <img src="${pageData.ProfileImage}" class="page-001-head-left-image" />
+      </div>
+      <div class="page-001-head-center cst-shape cst-shape-triangle-top-left">
+      </div>
+      <div class="page-001-head-right">
+        <div class="page-001-head-right-name">
+          ${pageData.Name}
+        </div>
+        <div class="page-001-head-right-address">
+          ${pageData.Address}
+        </div>
+        <div class="page-001-head-right-links">
+          <a href="mailto:${pageData.Email}" title="${pageLabels.ProfileGmailTitle}" target="_blank">
+            <span class="fa fa-envelope"></span>
+            ${pageData.Email}
+          </a>
+        </div>
+        <div class="page-001-head-right-links">
+          <a href="${pageData.ProfileTwitter}" title="${pageLabels.ProfileTwitterTitle}" target="_blank">
+            <span class="fa fa-twitter-square"></span>
+            ${pageData.ProfileTwitter}
+          </a>
+        </div>
+        <div class="page-001-head-right-links">
+          <a href="${pageData.ProfileLinkedIn}" title="${pageLabels.ProfileLinkedInTitle}" target="_blank">
+            <span class="fa fa-linkedin-square"></span>
+            ${pageData.ProfileLinkedIn}
+          </a>
+        </div>
+        <div class="page-001-head-right-links">
+          <a href="${pageData.ProfileGooglePlus}" title="${pageLabels.ProfileGooglePlusTitle}" target="_blank">
+            <span class="fa fa-google-plus-official"></span>
+            ${pageData.ProfileGooglePlus}
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="page-001-summary cst-shape-ripped-paper">
+      <div class="page-001-summary-head">
+        ${pageLabels.Summary}
+      </div>
+      <div class="page-001-summary-content">
+        <div repeat.for="sumObj of pageData.Summary" class="page-001-summary-content-item">
+          &#x25C6; ${sumObj.Content}
+        </div>
+      </div>
+    </div>
+
+
+    <!--<div class="page-001-">
+      <div>
+        ${pageLabels.TechnicalSkills}
+      </div>
+    </div>
+    <div class="page-001-">
+      <div>
+        ${pageLabels.Experience}
+      </div>
+    </div>
+    <div class="page-001-">
+      <div>
+        ${pageLabels.Education}
+      </div>
+    </div>
+    <div class="page-001-">
+      <div>
+        ${pageLabels.Others}
+      </div>
+    </div>-->
+  </div>
 </template>
