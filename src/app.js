@@ -23,7 +23,7 @@ export class App {
       ProfileImage:profileImage,
       LastUpdatedOn: '26 Sept, 2018',
       Name: 'Prasan Kumar',
-      Address: 'Bangalore, INDIA',
+      Address: 'Sr.Software Engineer at Antares Systems Ltd, Bangalore, INDIA',
       Email: 'prasankumar93@gmail.com',
       
       ProfileLinkedIn: 'https://in.linkedin.com/in/prasankumar93',
@@ -111,7 +111,8 @@ export class App {
       Others: {
         Gender:'Male',
         MartialStatus:'Married',
-        Languages:'English, Hindi, Telugu, Kannada, Marwadi(/rajasthani)'
+        Languages: 'English, Hindi, Telugu, Kannada, Marwadi(/rajasthani)',
+        DOB:'Feb 13, 1990'
       }
     }
 
