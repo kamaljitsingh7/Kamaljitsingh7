@@ -1,6 +1,8 @@
 <template>
   <require from="./app.css"></require>
   <require from="font-awesome/css/font-awesome.css"></require>
+  <require from="shared/comp/header_elms/header_elm"></require>
+
 
   <div class="page-001-container">
     <div class="page-001-head">
@@ -54,7 +56,11 @@
         </div>
       </div>
     </div>
-
+    <div class="page-001-tech-skills">
+      <div class="page-001-tech-skills-header">
+        <cst-header-elm details.bind="pageLabels.TechSkillHeaderObj"></cst-header-elm>
+      </div>
+    </div>
 
     <!--<div class="page-001-">
       <div>

@@ -12,15 +12,20 @@ export class App {
       ProfileLinkedInTitle: 'prasankumar93 on LinkedIn',
       ProfileTwitterTitle:'@prasankumar93 on Twitter',
       ProfileGooglePlusTitle:'+prasankumar93 on Google+',
-      ProfileGmailTitle:'email to prasankumar93@gmail.com'
+      ProfileGmailTitle: 'email to prasankumar93@gmail.com',
+      TechSkillHeaderObj: {
+        Type: 'tag',
+        Heading:'Technical Skills'
+      }
     }
+
     this.pageData = {
       ProfileImage:profileImage,
       LastUpdatedOn: '26 Sept, 2018',
       Name: 'Prasan Kumar',
       Address: 'Bangalore, INDIA',
       Email: 'prasankumar93@gmail.com',
-      //Contact: '+91–9632035003',
+      
       ProfileLinkedIn: 'https://in.linkedin.com/in/prasankumar93',
       ProfileTwitter: 'https://twitter.com/prasankumar93',
       ProfileGooglePlus:'https://plus.google.com/+prasankumar93',
