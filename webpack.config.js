@@ -99,7 +99,7 @@ module.exports = ({production, server, extractCss, coverage, analyze} = {}) => (
       }
     }),
     ...when(extractCss, new ExtractTextPlugin({
-      filename: production ? '[contenthash].css' : '[id].css',
+      filename: production ? '[hash].css' : '[id].css',
       allChunks: true
     })),
     ...when(production, new CopyWebpackPlugin([
