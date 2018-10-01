@@ -24,9 +24,9 @@ var profileData = {
   }],
   TechnicalSkills: {
     Client: ['HTML', 'CSS', 'JAVASCRIPT (ES6/7)', 'JQuery', 'AngularJS (v1)', 'AureliaJS'],
-    Server: ['C# (.Net 4.6)', 'ASP.NET WebAPI', 'LINQ', 'Entity Framework 6', 'ADO.NET'],
+    Server: ['C# (.Net 4.6)', 'ASP.NET WebAPI', 'LINQ', 'Entity Framework 6', 'ADO.NET', 'ASP.Net Core 2*'],
     Database: ['SqlServer'],
-    Learning: ['ASP.Net Core 2', 'EntityFramework Core 2', 'GIT']
+    Others: ['SVN / GIT*']
   },
   Experience: [{
     Description: 'Sr. Software engineer at Antares Systems Ltd, Bangalore (Nov 2014 to present)',

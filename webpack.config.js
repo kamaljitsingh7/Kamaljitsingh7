@@ -13,7 +13,7 @@ const when = (condition, config, negativeConfig) =>
   condition ? ensureArray(config) : ensureArray(negativeConfig);
 
 // primary config:
-const title = '';
+const title = 'My Profile';
 const outDir = path.resolve(__dirname, project.platform.output);
 const srcDir = path.resolve(__dirname, 'src');
 const nodeModulesDir = path.resolve(__dirname, 'node_modules');
@@ -26,11 +26,11 @@ const cssRules = [
 module.exports = ({production, server, extractCss, coverage, analyze} = {}) => ({
   resolve: {
     extensions: ['.js'],
-    modules: [srcDir, 'node_modules'],
+    modules: [srcDir, 'node_modules']
   },
   entry: {
     app: ['aurelia-bootstrapper'],
-    vendor: ['bluebird'],
+    vendor: ['bluebird']
   },
   mode: production ? 'production' : 'development',
   output: {

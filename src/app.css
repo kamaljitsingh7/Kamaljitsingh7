@@ -18,6 +18,7 @@
 
 .page-001-container {
   font-size: var(--font-size1);
+  margin-bottom: 10px;
 }
 
 
@@ -92,7 +93,50 @@
 }
 
 
-.page-001-tech-skills-header{
-  width:350px;
-  height:150px;
+
+
+.page-001-tech-skills {
+  display: flex;
+  margin: 0 10px 20px 30px;
+}
+
+.page-001-tech-skills-header {
+  width: 350px;
+  height: 150px;
+  z-index: 1;
+}
+
+.page-001-tech-skills-content {
+  background-color: var(--color-3);
+  color: var(--color-3-txt);
+  width: 100%;
+  padding: 20px 40px 20px 80px;
+  border-bottom-left-radius: 80px;
+  border-top-left-radius: 80px;
+}
+
+.page-001-tech-skills-section {
+  min-height: 80px;
+}
+
+.page-001-tech-section-header {
+  font-size: var(--font-size3);
+}
+.page-001-section-body {
+  display:flex;
+  flex-wrap:wrap;
+}
+.page-001-section-tech-name {
+  min-height: 20px;
+  min-width: 100px;
+  margin: 10px;
+}
+
+.section-separator {
+  border-bottom: 1px solid var(--color-3-txt);
+  margin-bottom: 10px;
+}
+.page-001-tech-footer-section {
+  display: flex;
+  justify-content: flex-end;
 }

@@ -7,19 +7,25 @@ export class App {
       Summary: 'Summary',
       Experience: 'Experience',
       Education: 'Education',
-      Others: 'Other Details',
+      OtherDetails: 'Other Details',
       TechSkillHeaderObj: {
         Type: 'tag',
-        Heading:'Technical Skills'
-      }
-    }
+        Heading: 'Technical Skills'
+      },
+      Client: 'Client',
+      Server: 'Server',
+      Database: 'Database',
+      Others: 'Others',
+      TechSkillFooter: '* denotes learning'
+
+    };
   }
   activate() {
-//can fetch profile_data user path dynamically using location url
-   var promObj =  import('./data/prasankumarn/profile_data').then((module) => {
+    //can fetch profile_data user path dynamically using location url
+    var promObj = import('./data/prasankumarn/profile_data').then((module) => {
       this.pageData = module.profileData;
       return Promise.resolve(this.pageData);
     });
-   return promObj;
+    return promObj;
   }
 }
