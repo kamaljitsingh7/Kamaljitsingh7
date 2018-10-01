@@ -8,6 +8,7 @@ export class App {
       Experience: 'Experience',
       Education: 'Education',
       OtherDetails: 'Other Details',
+      LastUpdatedOn: 'Last Updated On : ',
       TechSkillHeaderObj: {
         Type: 'tag',
         Heading: 'Technical Skills'

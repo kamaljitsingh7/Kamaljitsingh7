@@ -58,6 +58,11 @@
 .page-001-head-right-name {
   font-size: var(--font-size4);
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.page-001-head-last-updated {
+  font-size: var(--font-size1);
 }
 
 .page-001-head-right-address {

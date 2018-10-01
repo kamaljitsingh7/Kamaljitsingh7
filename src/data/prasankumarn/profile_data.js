@@ -1,8 +1,8 @@
-﻿import profileImage from './images/prasan_1.jpg'
+﻿import profileImage from './images/prasan_1.jpg';
 
 var profileData = {
   ProfileImage: profileImage,
-  LastUpdatedOn: '26 Sept, 2018',
+  LastUpdatedOn: 'Oct 1, 2018',
   Name: 'Prasan Kumar',
   Address: 'Sr.Software Engineer at Antares Systems Ltd, Bangalore, INDIA',
 
