@@ -2,7 +2,7 @@
 
 var profileData = {
   ProfileImage: profileImage,
-  LastUpdatedOn: 'Oct 1, 2018',
+  LastUpdatedOn: 'Oct 3, 2018',
   Name: 'Prasan Kumar',
   Address: 'Sr.Software Engineer at Antares Systems Ltd, Bangalore, INDIA',
 
