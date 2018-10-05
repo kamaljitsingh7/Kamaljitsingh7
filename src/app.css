@@ -14,6 +14,10 @@
   --color-4-txt: white;
   --color-5: #1A237E;
   --color-5-txt: white;
+  --color-6: #152A7C;
+  --color-6-txt: white;
+  --sec-color-1: #FF8700;
+  --sec-color-1-txt: black;
 }
 
 .page-001-container {
@@ -144,4 +148,37 @@
 .page-001-tech-footer-section {
   display: flex;
   justify-content: flex-end;
+}
+.page-001-education {
+}
+.page-001-education-header {
+  font-size: var(--font-size4);
+  margin: 20px;
+}
+.page-001-education-details-container {
+    display: flex;
+}
+.page-001-education-details {
+    background-color: var(--color-6);
+    color: var(--color-6-txt);
+    min-height: 200px;
+    width: 400px;
+    margin: 10px 20px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+.page-001-course {
+    background-color: var(--sec-color-1);
+    color: var(--sec-color-1-txt);
+    min-height: 15px;
+    min-width: 100px;
+    padding: 8px; 
+    margin-bottom: 16px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-001-details {
+    margin-bottom : 4px;
 }

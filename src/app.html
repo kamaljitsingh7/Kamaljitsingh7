@@ -120,13 +120,21 @@
     <div>
       ${pageLabels.Experience}
     </div>
+  </div>-->
+  <div class="page-001-education">
+      <div class="page-001-education-header">
+          ${pageLabels.Education}
+      </div>
+      <div class="page-001-education-details-container">
+          <div class="page-001-education-details cst-shape-ripped-paper" repeat.for="detail of pageData.Education">
+              <div class="page-001-course">${detail.Course}</div>
+              <div class="page-001-details">${detail.Year}</div>
+              <div class="page-001-details">${detail.Institute}</div>
+              <div class="page-001-details">${detail.Address}</div>
+          </div>
+      </div>
   </div>
-  <div class="page-001-">
-    <div>
-      ${pageLabels.Education}
-    </div>
-  </div>
-  <div class="page-001-">
+  <!--<div class="page-001-">
     <div>
       ${pageLabels.OtherDetails}
     </div>
