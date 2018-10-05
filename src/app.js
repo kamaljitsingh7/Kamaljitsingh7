@@ -49,8 +49,8 @@ export class App {
 
                 this.getPageData(path).then((pageData)=>{
                     resolve(pageData);
-                }).catch((error)=>{
-                    reject(error);
+                }).catch((errorMsg)=>{
+                    reject(errorMsg);
                 });
             });
           
