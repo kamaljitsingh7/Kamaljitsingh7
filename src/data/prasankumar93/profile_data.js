@@ -22,12 +22,24 @@ var profileData = {
   }, {
     Content: 'Dedicated, Innovative and self-motivated team player with an ability to easily assimilate new ideas and concepts.'
   }],
-  TechnicalSkills: {
-    Client: ['HTML', 'CSS', 'JAVASCRIPT (ES6/7)', 'JQuery', 'AngularJS (v1)', 'AureliaJS'],
-    Server: ['C# (.Net 4.6)', 'ASP.NET WebAPI', 'LINQ', 'Entity Framework 6', 'ADO.NET', 'ASP.Net Core 2*'],
-    Database: ['SqlServer'],
-    Others: ['SVN / GIT*']
-  },
+  TechnicalSkills: [
+      {
+          Header: 'Client',
+          Skills: ['HTML', 'CSS', 'JAVASCRIPT (ES6/7)', 'JQuery', 'AngularJS (v1)', 'AureliaJS']
+      },
+      {
+          Header: 'Server',
+          Skills: ['C# (.Net 4.6)', 'ASP.NET WebAPI', 'LINQ', 'Entity Framework 6', 'ADO.NET', 'ASP.Net Core 2*']
+      },
+      {
+          Header: 'Database',
+          Skills: ['SqlServer']
+      },
+      {
+          Header: 'Others',
+          Skills: ['SVN / GIT*']
+      }
+  ],
   Experience: [{
     Description: 'Sr. Software engineer at Antares Systems Ltd, Bangalore (Nov 2014 to present)',
     Projects: [{

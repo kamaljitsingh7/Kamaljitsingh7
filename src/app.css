@@ -7,7 +7,7 @@
     --color-1: #E8EAF6;
     --color-1-txt: black;
     --color-2: #9FA8DA;
-    --color-2-txt: white;
+    --color-2-txt: black;
     --color-3: #5C6BC0;
     --color-3-txt: black;
     --color-4: #3F51B5;
@@ -103,31 +103,41 @@
 
 
 .page-001-tech-skills {
+    background-color: #7286CA;
+    padding: 10px;
     display: flex;
-    margin: 0 10px 20px 30px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .page-001-tech-skills-header {
-    width: 350px;
-    height: 150px;
     z-index: 1;
 }
 
 .page-001-tech-skills-content {
-    background-color: var(--color-3);
-    color: var(--color-3-txt);
     width: 100%;
-    padding: 20px 40px 20px 80px;
-    border-bottom-left-radius: 80px;
-    border-top-left-radius: 80px;
-}
-
+} 
 .page-001-tech-skills-section {
-    min-height: 80px;
+    background-color: var(--color-2);
+    color: var(--color-2-txt);
+    padding: 16px 0px 8px 0px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .page-001-tech-section-header {
     font-size: var(--font-size3);
+    background-color:  var(--color-6);
+    color:  var(--color-6-txt);
+    padding: 8px;
+    margin-bottom:8px;
+    border-radius: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
 }
 
 .page-001-section-body {
@@ -140,12 +150,6 @@
     min-width: 100px;
     margin: 10px;
 }
-
-.section-separator {
-    border-bottom: 1px solid var(--color-3-txt);
-    margin-bottom: 10px;
-}
-
 .page-001-tech-footer-section {
     display: flex;
     justify-content: flex-end;
@@ -200,6 +204,17 @@
     .page-001-head-left {
         width: 150px;
     }
+    .page-001-tech-skills {
+        background-color: transparent;
+    }
+    .page-001-tech-skills-section {
+        padding: 0px 130px 8px 130px;
+        margin-bottom: 0px;
+    }
+    .page-001-tech-section-header {
+        width: 100%;
+        border-radius: 0px;
+    }
     .page-001-education-details {
         width: 400px;
     }
@@ -210,6 +225,13 @@
     }
     .page-001-head-right-links {
         width: 50%;
+    }
+    .page-001-tech-skills {
+        flex-direction:row;
+    }
+    .page-001-tech-skills-header {
+        width: 350px;
+        height: 150px;
     }
     .page-001-education {
         align-items:flex-start;

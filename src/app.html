@@ -66,44 +66,13 @@
       <div class="page-001-tech-skills-header">
         <cst-header-elm details.bind="pageLabels.TechSkillHeaderObj"></cst-header-elm>
       </div>
-      <div class="page-001-tech-skills-content cst-shape-ripped-paper-right">
-        <div class="page-001-tech-skills-section section-separator">
+      <div class="page-001-tech-skills-content">
+        <div class="page-001-tech-skills-section ${isMobileScreen ? 'cst-shape-ripped-paper' : 'cst-shape-trapezoid top'}" repeat.for="skills of pageData.TechnicalSkills">
           <div class="page-001-tech-section-header">
-            ${pageLabels.Client}
+            ${skills.Header}
           </div>
           <div class="page-001-section-body">
-            <div repeat.for="techName of pageData.TechnicalSkills.Client" class="page-001-section-tech-name">
-              &#x25C6; ${techName}
-            </div>
-          </div>
-        </div>
-        <div class="page-001-tech-skills-section section-separator">
-          <div class="page-001-tech-section-header">
-            ${pageLabels.Server}
-          </div>
-          <div class="page-001-section-body">
-            <div repeat.for="techName of pageData.TechnicalSkills.Server" class="page-001-section-tech-name">
-              &#x25C6; ${techName}
-            </div>
-          </div>
-
-        </div>
-        <div class="page-001-tech-skills-section section-separator">
-          <div class="page-001-tech-section-header">
-            ${pageLabels.Database}
-          </div>
-          <div class="page-001-section-body">
-            <div repeat.for="techName of pageData.TechnicalSkills.Database" class="page-001-section-tech-name">
-              &#x25C6; ${techName}
-            </div>
-          </div>
-        </div>
-        <div class="page-001-tech-skills-section">
-          <div class="page-001-tech-section-header">
-            ${pageLabels.Others}
-          </div>
-          <div class="page-001-section-body">
-            <div repeat.for="techName of pageData.TechnicalSkills.Others" class="page-001-section-tech-name">
+            <div repeat.for="techName of skills.Skills" class="page-001-section-tech-name">
               &#x25C6; ${techName}
             </div>
           </div>
