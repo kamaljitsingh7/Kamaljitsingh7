@@ -9,7 +9,7 @@ export class App {
             OtherDetails: 'Other Details',
             LastUpdatedOn: 'Last Updated On : ',
             TechSkillHeaderObj: {
-                Type: 'tag',
+                Type: 'pen',
                 Heading: 'Technical Skills'
             },
             Client: 'Client',
@@ -19,6 +19,7 @@ export class App {
             TechSkillFooter: '* denotes learning'
 
         };
+        this.isMobileScreen = this.getIsMobileScreen();
     }
     activate() {
         var promObj = this.getProfileDataByUrl();
@@ -66,5 +67,26 @@ export class App {
             return Promise.reject(error);
         });
         return promObj;
+    }
+
+    getIsMobileScreen() {
+        var isMobileScreen = false;
+
+        var width = $(window).width();
+        var height = $(window).height();
+
+        var allScreenSizeTypes = {
+            EXTRA_SMALL: 480, //px
+            SMALL: 768,
+            MEDIUM: 992,
+            LARGE: 1200,
+            EXTRA_LARGE: 5000
+        }
+
+        if (width <= allScreenSizeTypes.EXTRA_SMALL) {
+            isMobileScreen = true;
+        }
+
+        return isMobileScreen;
     }
 }

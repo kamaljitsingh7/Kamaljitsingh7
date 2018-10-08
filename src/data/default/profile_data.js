@@ -20,12 +20,24 @@ var profileData = {
     }, {
         Content: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.'
     }],
-    TechnicalSkills: {
-        Client: ['ABC', 'XYZ'],
-        Server: ['PQR'],
-        Database: ['DEF'],
-        Others: ['']
-    },
+    TechnicalSkills: [
+      {
+          Header: 'Client',
+          Skills: ['ABC', 'XYZ']
+      },
+      {
+          Header: 'Server',
+          Skills: ['PQR']
+      },
+      {
+          Header: 'Database',
+          Skills: ['DEF']
+      },
+      {
+          Header: 'Others',
+          Skills: ['QRS']
+      }
+    ],
     Education: [{
         Course: 'B.Tech(Information Technology)',
         Year: 'XXXX',

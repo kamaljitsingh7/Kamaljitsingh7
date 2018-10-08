@@ -20,11 +20,20 @@ var profileData = {
     }, {
         Content: 'Focused and have abilities of learning things quickly'
     }],
-    TechnicalSkills: {
-        Client: ['HTML', 'CSS', 'JAVASCRIPT (ES6)', 'AngularJS (v1)', 'AureliaJS'],
-        Server: ['Core Java'],
-        Others: ['GIT*']
-    },
+    TechnicalSkills: [
+        {
+            Header: 'Client',
+            Skills: ['HTML', 'CSS', 'JAVASCRIPT (ES6)', 'AngularJS (v1)', 'AureliaJS']
+        },
+        {
+            Header: 'Server',
+            Skills: ['Core Java']
+        },
+        {
+            Header: 'Others',
+            Skills: ['GIT*']
+        }
+    ],
     Education: [{
         Course: 'B.Tech(Computer Science)',
         Year: '2015',
