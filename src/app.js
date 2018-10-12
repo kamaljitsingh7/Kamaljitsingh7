@@ -16,8 +16,12 @@ export class App {
             Server: 'Server',
             Database: 'Database',
             Others: 'Others',
-            TechSkillFooter: '* denotes learning'
-
+            TechSkillFooter: '* denotes learning',
+            Projects: 'Projects',
+            ProjectDescription: 'Description',
+            Technologies: 'Technologies Used',
+            Responsibilities: 'Responsibilities',
+            Achievements: 'Special Achievements'
         };
         this.isMobileScreen = this.getIsMobileScreen();
     }

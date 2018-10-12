@@ -56,6 +56,35 @@ var profileData = {
         Institute: 'PQR Public School',
         Address: 'PQR, INDIA'
     }],
+    Experience: [
+       {
+           Description: 'XYZ Company(abc-xyz)',
+           Projects: [
+               {
+                   Title: 'Project Title',
+                   Details: 'Project Description',
+                   Technologies: 'XYZ, PQR, LMN',
+                   Responsibilities: [
+                       'Worked on ABC feature.',
+                   ]
+               }
+           ]
+       },
+       {
+           Description: 'PQR Company (abc-xyz)',
+           Projects: [
+              {
+                  Title: 'Project Title',
+                  Details: 'Project Description',
+                  Technologies: 'XYZ, PQR, LMN',
+                  Responsibilities: [
+                      'Worked on ABC feature.',
+                  ],
+                  SpecialAchievements:['Won PQR award']
+              }
+           ]
+       }
+    ],
     Others: {
         Gender: 'Female',
         MartialStatus: 'Unmarried',
