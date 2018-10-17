@@ -10,9 +10,17 @@
             <div class="page-001-head-center cst-shape-triangle top-left" if.bind="pageData.ProfileImage">
             </div>
             <div class="page-001-head-right">
-                <div class="page-001-head-right-name">
-                    ${pageData.Name}
+                <div class="page-001-title">
+                    <div class="page-001-head-right-name">
+                        ${pageData.Name}
+                    </div>
+                    <div class="page-001-title-icons">
+                        <div class="page-icon-container" title="${pageLabels.ChangeTheme}" click.trigger="evtChangeTheme()">
+                            <span class="fa fa-th page-001-theme-icon"></span>
+                        </div>
+                    </div>
                 </div>
+
                 <div class="page-001-head-right-address">
                     ${pageData.Address}
                 </div>
