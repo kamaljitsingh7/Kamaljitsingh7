@@ -37,7 +37,7 @@ var profileData = {
         },
         {
             Header: 'Others',
-            Skills: ['SVN / GIT*']
+            Skills: ['SVN / GIT']
         }
     ],
     Experience: [{
@@ -71,7 +71,7 @@ var profileData = {
             ]
         }]}, 
         {
-            Description: 'Smart care Web (Jun 2013 to Oct 2014)',
+          Description: 'Streamline Healthcare Solutions, LLC (Jun 2013 – Nov 2014)',
             Projects:[
                 {
                     Title: 'Smart care Web (Jun 2013 to Oct 2014)',
@@ -85,7 +85,7 @@ var profileData = {
                 }
             ]
         }, {
-            Description:'CHARAK  (Aug 2011 to May 2013)',
+          Description:'Asclepius consulting technologies  (Aug 2011 – May 2013)',
             Projects: [
                 {
                     Title: 'CHARAK  (Aug 2011 to May 2013)',
